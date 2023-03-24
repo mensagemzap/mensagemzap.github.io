@@ -20,7 +20,7 @@
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
                 <a class="navbar-brand" href="#!">Telemensagem Marcelo</a>
-                <a class="btn btn-primary" href="https://wa.me/5521968689210" target="_blank">Chamar no WhatsApp</a>
+                <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=21968689210&text=Olá, vi seu anúncio de telemensagem e gostaria de saber mais" target="_blank">Chamar no WhatsApp</a>
             </div>
         </nav>
         <!-- Masthead-->
@@ -31,8 +31,8 @@
                         <div class="text-center text-white">
                             <!-- Page heading-->
                             <h1 class="mb-1">SEJAM BEM VINDOS A TELEMENSAGEM MARCELO</h1>
-							<h1 class="mb-1">Sua agência virtual de mensagem por telefone</h1>
-							<a class="btn btn-primary" href="https://wa.me/5521968689210" target="_blank">Chamar no WhatsApp</a>
+							<h1 class="mb-1">Sua agência virtual de mensagem por telefone!</h1>
+							<a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=21968689210&text=Olá, vi seu anúncio de telemensagem e gostaria de saber mais" target="_blank">Chamar no WhatsApp</a>
                            
                             </form>
                         </div>
@@ -49,7 +49,7 @@
                              <div class="features-icons-icon d-flex"><i class="bi-heart m-auto text-primary"></i></div>
                             <h3>Muitos temas...</h3>
                             <p class="lead mb-0">Desculpa, aniversário variados, amizade, otimismo e muito mais!</p>
-							<a class="btn btn-primary" href="https://wa.me/5521968689210" target="_blank">Chamar no WhatsApp</a>
+							<a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=21968689210&text=Olá, vi seu anúncio de telemensagem e gostaria de saber mais" target="_blank">Chamar no WhatsApp</a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -57,26 +57,61 @@
                             <div class="features-icons-icon d-flex"><i class="bi-question-circle-fill m-auto text-primary"></i></div>
                             <h3>Como funciona?</h3>
                             <p class="lead mb-0">Você escolhe um áudio, aquele que mais se enquadra no tema e ainda pode escrever um texto ou fazer um áudio de até 1 minuto com sua voz, expressando o seu sentimento que enviamos por WhatsApp ou Celular na data e horário marcado! Aqui nós gravamos a reação da pessoa homenageada e enviamos o áudio com a gravação pelo seu WhatsApp ou email.</p>
-						  <a class="btn btn-primary" href="https://wa.me/5521968689210" target="_blank">Chamar no WhatsApp</a>
+						  <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=21968689210&text=Olá, vi seu anúncio de telemensagem e gostaria de saber mais" target="_blank">Chamar no WhatsApp</a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-phone-fill m-auto text-primary"></i></div>
-                            <h3>Não achou o que queria?</h3>
-                            <p class="lead mb-0">Nos chame no Whatsapp! </p>
-							<a class="btn btn-primary" href="https://wa.me/5521968689210" target="_blank">Chamar no WhatsApp</a>
+                            <h3>Escolha alguns áudios abaixo. </h3>
+                            <p class="lead mb-0">Não achou o que queria? Nos chame no Whatsapp! </p>
+							<a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=21968689210&text=Olá, vi seu anúncio de telemensagem e gostaria de saber mais" target="_blank">Chamar no WhatsApp</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Image Showcases
+        <!-- Image Showcases -->
         <section class="showcase">
             <div class="container-fluid p-0">
-                <div class="row g-0">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-1.jpg')"></div>
-                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                <div class="row">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-audio text-center">
+                      <audio controls>
+                        <source src="assets/audio/audio-1.mp3" type="audio/mpeg">
+                        Seu navegador não suporta a reprodução de áudio.
+                      </audio>
+                      <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=21968689210&text=Olá, gostei da mensagem romântica 0001 do site" target="_blank">Gostei dessa</a>
+                      <p style="color:rgb(255, 0, 0)"> Romântica Áudio (Fem) 0001</p>
+                      
+                    </div>
+                    <div class="col-lg-6 order-lg-2 text-white showcase-audio text-center">
+                      <audio controls>
+                        <source src="assets/audio/audio-2.mp3" type="audio/mpeg">
+                        Seu navegador não suporta a reprodução de áudio.
+                      </audio>
+                      <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=21968689210&text=Olá, gostei da mensagem romântica 0002 do site" target="_blank">Gostei dessa</a>
+                      <p style="color:rgb(255, 0, 0)"> Romântica Áudio (Fem) 0002</p>
+                    </div>
+                    <div class="col-lg-6 order-lg-2 text-white showcase-audio text-center">
+                      <audio controls>
+                        <source src="assets/audio/audio-3.mp3" type="audio/mpeg">
+                        Seu navegador não suporta a reprodução de áudio.
+                      </audio>
+                      <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=21968689210&text=Olá, gostei da mensagem romântica 0003 do site" target="_blank">Gostei dessa</a>
+                      <p style="color:rgb(255, 0, 0)"> Romântica Áudio (Fem) 0003</p>
+                    </div>
+                    <div class="col-lg-6 order-lg-2 text-white showcase-audio text-center">
+                      <audio controls>
+                        <source src="assets/audio/audio-4.mp3" type="audio/mpeg">
+                        Seu navegador não suporta a reprodução de áudio.
+                      </audio>
+                      <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=21968689210&text=Olá, gostei da mensagem romântica 0004 do site" target="_blank">Gostei dessa</a>
+                      <p style="color:rgb(255, 0, 0)"> Romântica Áudio (Fem) 0004</p>
+                    </div>
+                  </div>
+                  
+                    
+                   <!-- <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                         <h2>Fully Responsive Design</h2>
                         <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
                     </div>
@@ -104,7 +139,7 @@
             <div class="container position-relative">
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
-                       <a class="btn btn-primary" href="https://wa.me/5521968689210" target="_blank">Chamar no WhatsApp</a>
+                       <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=21968689210&text=Olá, vi seu anúncio de telemensagem e gostaria de saber mais" target="_blank">Chamar no WhatsApp</a>
                         </form>
                     </div>
                 </div>
