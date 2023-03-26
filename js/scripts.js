@@ -1,7 +1,13 @@
-/*!
-* Start Bootstrap - Landing Page v6.0.5 (https://startbootstrap.com/theme/landing-page)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+// Mostra a popup quando o usuário rolar a página
+$(window).scroll(function() {
+    if($(window).scrollTop() + $(window).height() == $(document).height()) {
+      $('#myModal').modal('show');
+    }
+  });
+  
+  // Esconde a popup quando o usuário clica em Fechar
+  $('#myModal').on('hidden.bs.modal', function (e) {
+    // Volta para o topo da página
+    $('html, body').animate({scrollTop:0}, 'slow');
+  });
+  
