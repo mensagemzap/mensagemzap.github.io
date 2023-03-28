@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <head>
+            <head>
+                <script src="script.js"></script>
+              </head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Telemensagem Marcelo</title>
+            
+            <!-- jQuery -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            
+            <!-- Bootstrap JS -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            
+          </head>
+          
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
@@ -22,6 +41,10 @@
                   <a class="nav-link" href="anivrom.html" style="color: rgb(9, 102, 243)">Aniversário Romântico</a>
                 <li class="nav-item">
                     <a class="nav-link" href="reconciliacao.html" style="color: rgb(9, 102, 243)">Reconciliação</a>
+                <li class="nav-item">
+                     <a class="nav-link" href="paquera.html" style="color: rgb(9, 102, 243)">Paquera</a>
+                     <li class="nav-item">
+                        <a class="nav-link" href="desculpa.html" style="color: rgb(9, 102, 243)">Desculpas</a>  
                 </li>
               </ul>
             </div>
@@ -43,6 +66,11 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
+        
+      </div>
+    </div>
+  </div>
+  
         <!-- Navigation-->
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
@@ -58,7 +86,7 @@
                             <!-- Page heading-->
                             <h1 class="mb-1">SEJAM BEM VINDOS A TELEMENSAGEM MARCELO</h1>
 							<h1 class="mb-1">Sua agência virtual de mensagem por telefone!</h1>
-							<a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=5521968689210&text=Olá, vi seu anúncio de telemensagem e gostaria de saber mais" target="_blank">Clique aqui para chamar no WhatsApp</a>
+							<a class="btn btn-primary" href="tema.html">Clique aqui e escolha um tema</a>
                            
                             </form>
                         </div>
@@ -82,7 +110,7 @@
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-question-circle-fill m-auto text-primary"></i></div>
                             <h3>Como funciona?</h3>
-                            <p class="lead mb-0">Escolha um áudio no tema escolhido. clique no botão azul whatsapp e fale conosco. Gravamos a REAÇÃO (você fica sabendo a reação da pessoa) e ainda pode fazer uma mini dedicatória (opcional). (OBS: se não achou o que queria , nos chame no WhatsApp clicando no botão azul ou ligando para o 21 96868-9210) </p>
+                            <p class="lead mb-0">Escolha um áudio no tema escolhido. clique no botão azul whatsapp e fale conosco. Gravamos a REAÇÃO (você fica sabendo a reação da pessoa) e ainda pode fazer uma mini dedicatória (opcional). Se você não achou o que queria , nos chame no WhatsApp clicando no botão azul ou ligando para o 21 96868-9210) </p>
 						  <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=5521968689210&text=Olá, vi seu anúncio de telemensagem e gostaria de saber mais" target="_blank">Clique aqui para chamar no WhatsApp</a>
                         </div>
                     </div>
@@ -91,12 +119,16 @@
                             <div class="features-icons-icon d-flex"><i class="bi-phone-fill m-auto text-primary"></i></div>
                             <h3>Escolha seu tema: </h3>
                             <p class="lead mb-0">Não achou o que queria? Nos chame no Whatsapp! </p>
-							<a class="btn btn-primary" href="romantica.html">Romântica (Clique Aqui)</a>
-                            <a class="btn btn-primary" href="anivrom.html">Aniversário Romântico (Clique Aqui)</a>
+							<a class="btn btn-primary" href="tema.html">Temas (Clique Aqui)</a>
+                            <br>
+                            
+                           <!--  <a class="btn btn-primary" href="anivrom.html">Aniversário Romântico (Clique Aqui)</a>
                             <a class="btn btn-primary" href="reconciliacao.html">Reconciliação (Clique Aqui)</a>
+                            <a class="btn btn-primary" href="paquera.html">Paquera (Clique Aqui)</a>
+                            <a class="btn btn-primary" href="desculpa.html">Desculpas (Clique Aqui)</a>
                             <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=5521968689210&text=Olá, vi seu anúncio de telemensagem e gostaria de saber mais" target="_blank">Outros Temas (Clique Aqui para Chamar no WhatsApp)</a>
 
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -191,5 +223,48 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+      <!-- Modal -->
+
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  
+  <script>
+    // Mostra a popup quando o usuário rolar a página
+    $(window).scroll(function() {
+      if($(window).scrollTop() + $(window).height() == $(document).height()) {
+        $('#myModal').modal('show');
+      }
+    });
+  
+    // Esconde a popup quando o usuário clica em Fechar
+    $('#myModal').on('hidden.bs.modal', function (e) {
+      // Volta para o topo da página
+      $('html, body').animate({scrollTop:0}, 'slow');
+    });
+  </script>
+  <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalLabel">Já vai embora?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Podemos te ajudar, nos chame no WhatsApp.</p>
+          <p><a href="https://api.whatsapp.com/send?phone=5521968689210&text=Olá, vi seu anúncio de telemensagem e gostaria de saber mais">Clique aqui para falar com a gente</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
     </body>
 </html>
